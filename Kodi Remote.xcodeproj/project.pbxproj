@@ -3141,7 +3141,7 @@
 				ORGANIZATIONNAME = "joethefox inc.";
 				TargetAttributes = {
 					0F5548F5151D1187007E633F = {
-						DevelopmentTeam = KWZL4ZWD6C;
+						DevelopmentTeam = DE64CMWKZH;
 					};
 				};
 			};
@@ -4293,6 +4293,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = DE64CMWKZH;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XBMC Remote/Kodi Remote-Prefix.pch";
 				INFOPLIST_FILE = "XBMC Remote/Kodi Remote-Info.plist";
@@ -4302,7 +4303,7 @@
 					"-ObjC",
 					"-w",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "it.joethefox.XBMC-Remote";
+				PRODUCT_BUNDLE_IDENTIFIER = kodi.music.com;
 				PRODUCT_NAME = "Kodi Remote";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -4320,13 +4321,14 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = DE64CMWKZH;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XBMC Remote/Kodi Remote-Prefix.pch";
 				INFOPLIST_FILE = "XBMC Remote/Kodi Remote-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "it.joethefox.XBMC-Remote";
+				PRODUCT_BUNDLE_IDENTIFIER = kodi.music.com;
 				PRODUCT_NAME = "Kodi Remote";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
