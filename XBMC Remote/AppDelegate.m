@@ -163,6 +163,7 @@ NSMutableArray *hostRightMenuItems;
     
     mainMenuItems = [NSMutableArray arrayWithCapacity:1];
     mainMenu *menu_Music = [[mainMenu alloc] init];
+    mainMenu *menu_Favourite = [[mainMenu alloc] init];
     mainMenu *menu_Radio = [[mainMenu alloc] init];
     mainMenu *menu_Addons = [[mainMenu alloc] init];
     mainMenu *menu_Movie = [[mainMenu alloc] init];
@@ -176,6 +177,9 @@ NSMutableArray *hostRightMenuItems;
     menu_Music.subItem = [[mainMenu alloc] init];
     menu_Music.subItem.subItem = [[mainMenu alloc] init];
     menu_Music.subItem.subItem.subItem = [[mainMenu alloc] init];
+    
+    
+    menu_Favourite.subItem = [[mainMenu alloc] init];
     
     menu_Addons.subItem = [[mainMenu alloc] init];
     menu_Addons.subItem.subItem = [[mainMenu alloc] init];
@@ -1629,6 +1633,13 @@ NSMutableArray *hostRightMenuItems;
                                                [NSNumber numberWithBool:NO],
                                                [NSNumber numberWithBool:NO],
                                                nil];
+
+#pragma mark - Radio Favourite
+    menu_Favourite.mainLabel = NSLocalizedString(@"Radio Favourite", nil);
+    menu_Favourite.upperLabel = NSLocalizedString(@"Listen to", nil);
+    menu_Favourite.icon = @"icon_home_tv_alt";
+    menu_Favourite.family = 1;
+    menu_Favourite.enableSection = YES;
 
 #pragma mark - Radio
     menu_Radio.mainLabel = NSLocalizedString(@"Internet Radio", nil);
