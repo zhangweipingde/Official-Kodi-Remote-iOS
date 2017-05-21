@@ -4404,13 +4404,14 @@ NSMutableArray *hostRightMenuItems;
 //    [UIDevice currentDevice].proximityMonitoringEnabled = YES;
 //    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(handleProximityChangeNotification:) name:UIDeviceProximityStateDidChangeNotification object:nil];
 
-#pragma mark -
+#pragma mark - Attaching menu to view
 
     self.serverName = NSLocalizedString(@"No connection", nil);
     InitialSlidingViewController *initialSlidingViewController;
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
         [mainMenuItems addObject:menu_Server];
         [mainMenuItems addObject:menu_Music];
+        [mainMenuItems addObject:menu_Favourite];
         [mainMenuItems addObject:menu_Radio];
         [mainMenuItems addObject:menu_Addons];
         //[mainMenuItems addObject:menu_Movie];
@@ -4426,6 +4427,7 @@ NSMutableArray *hostRightMenuItems;
     else {
         [mainMenuItems addObject:menu_Server];
         [mainMenuItems addObject:menu_Music];
+        [mainMenuItems addObject:menu_Favourite];
         [mainMenuItems addObject:menu_Radio];
         [mainMenuItems addObject:menu_Addons];
         //[mainMenuItems addObject:menu_NowPlaying];
